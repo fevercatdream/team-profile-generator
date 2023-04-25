@@ -116,7 +116,7 @@ async function createEngineer() {
         },
         {
             type: "input",
-            message: "What is the engineer GitHub username?",
+            message: "What is the engineers GitHub username?",
             name: "github",
         },
     ]);
@@ -150,7 +150,7 @@ async function createIntern() {
         },
         {
             type: "input",
-            message: "What school does the intern attend?",
+            message: "What is the interns school?",
             name: "school",
         },
     ]);
