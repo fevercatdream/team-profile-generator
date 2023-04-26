@@ -1,0 +1,33 @@
+:root {
+  --color-pink-red: #E84756;
+  --color-cerulean-blue: #0077F7;
+  --color-off-white: #F6F7F9;
+  --color-white: white;
+  --color-black: black;
+  --box-shadow-black: 1px 1px 5px var(--color-black);
+}
+
+.jumbotron {
+  background-color: var(--color-pink-red);
+  color: var(--color-white);
+}
+
+
+
+.team-area {
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 12px;
+  box-shadow: var(--box-shadow-black);
+}
+
+.card-header {
+  background-color: var(--color-cerulean-blue);
+  color: var(--color-white);
+}
+
+.card-body {
+  background-color: var(--color-off-white);
+}
